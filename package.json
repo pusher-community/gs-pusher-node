@@ -1,0 +1,25 @@
+{
+  "name": "gs-pusher-node",
+  "version": "0.1.0",
+  "description": "Pusher + Node Getting Started Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pusher",
+    "node",
+    "webhooks",
+    "trigger",
+    "events",
+    "authentication"
+  ],
+  "author": "Pusher <support@pusher.com> (https://pusher.com)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "pusher": "^1.0.6"
+  }
+}
