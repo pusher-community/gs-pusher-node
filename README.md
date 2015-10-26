@@ -1,4 +1,4 @@
-# Getting Started: Pusher Node.JS
+# Getting Started: Pusher and Node.JS
 
 A getting started example when using the [Pusher Node.JS HTTP API library](https://github.com/pusher/pusher-http-node) with Express JS.
 
