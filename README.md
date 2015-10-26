@@ -54,3 +54,9 @@ $ foreman start
 Navigate to `localhost:5000` (or the URL you see logged to the console) and take a look at the examples. View the JavaScript console for a log from the Pusher JavaScript library.
 
 ![](./docs/presence-log.png)
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Make sure you've got the required environmental variables set up!
