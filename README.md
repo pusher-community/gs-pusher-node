@@ -13,7 +13,9 @@ This repo gives you the absolute basics required to get started. It doesn't prov
 
 **Todo:**
 
+* Triggering the same event on multiple channels
 * How to trigger an event from your client (client events)
+* Querying application state
 
 ## Installation
 
