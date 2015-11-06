@@ -29,14 +29,14 @@ $ npm install
 
 Prior to running the Node app you'll need some environmental variables to be set.
 
-* `PUSHER_CHAT_APP_ID` - your Pusher application ID
-* `PUSHER_CHAT_APP_KEY` - your Pusher application key
-* `PUSHER_CHAT_APP_SECRET` - your Pusher application secret
+* `PUSHER_APP_ID` - your Pusher application ID
+* `PUSHER_APP_KEY` - your Pusher application key
+* `PUSHER_APP_SECRET` - your Pusher application secret
 
 You can do this from the command line as part of running the application:
 
 ```bash
-PUSHER_CHAT_APP_ID=YOUR_APP_ID PUSHER_CHAT_APP_KEY=YOUR_APP_KEY PUSHER_CHAT_APP_SECRET=YOUR_APP_SECRET node server.js
+PUSHER_APP_ID=YOUR_APP_ID PUSHER_APP_KEY=YOUR_APP_KEY PUSHER_APP_SECRET=YOUR_APP_SECRET node server.js
 ```
 
 Or, probably much more easily, with the help of [foreman](https://github.com/ddollar/foreman) and by setting these values in a `.env` file:
