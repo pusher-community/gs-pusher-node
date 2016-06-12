@@ -36,7 +36,14 @@ Prior to running the Node app you'll need some environmental variables to be set
 You can do this from the command line as part of running the application:
 
 ```bash
+# Bash (OS X and Linux)
 PUSHER_APP_ID=YOUR_APP_ID PUSHER_APP_KEY=YOUR_APP_KEY PUSHER_APP_SECRET=YOUR_APP_SECRET node server.js
+
+# Windows command prompt:
+set PUSHER_APP_ID=YOUR_APP_ID&& set PUSHER_APP_KEY=YOUR_APP_KEY&& set PUSHER_APP_SECRET=YOUR_APP_SECRET&& node server.js
+
+# Windows PowerShell:
+$env:PUSHER_APP_ID="YOUR_APP_ID"; $env:PUSHER_APP_KEY="YOUR_APP_KEY"; $env:PUSHER_APP_SECRET="YOUR_APP_SECRET"; node server.js
 ```
 
 Or, probably much more easily, with the help of [foreman](https://github.com/ddollar/foreman) and by setting these values in a `.env` file:
